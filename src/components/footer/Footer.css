@@ -1,0 +1,21 @@
+footer{
+    width: 100%;
+    height: 65px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(98, 106, 119);
+}
+footer p{
+    font-size: 24px;
+}
+
+
+/*Footer kısmını ekran ne kadar büyürse büyüsün footer ın en altta olması için yapılır. 2316 px den sonra bu kodlar geçerli olur  */
+@media (min-width:2316px) {
+   footer {
+    position: fixed; /* pozisyonu sabitledik */
+    bottom: 0px;
+   }
+}
+
